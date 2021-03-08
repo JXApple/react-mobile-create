@@ -1,3 +1,11 @@
+<!--
+ * @description  : 
+ * @Author       : zengrongping
+ * @Date         : 2021-03-07 17:43:10
+ * @LastEditors  : zengrongping
+ * @LastEditTime : 2021-03-08 09:47:38
+ * @FilePath     : \react-mobile-create\public\index.html
+-->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -22,10 +30,12 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>React App</title>
+    <script src="//g.alicdn.com/fdilab/lib3rd/viewport-units-buggyfill/0.6.2/??viewport-units-buggyfill.hacks.min.js,viewport-units-buggyfill.min.js"></script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+    <script> window.onload = function () { window.viewportUnitsBuggyfill.init({ hacks: window.viewportUnitsBuggyfillHacks }); } </script>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
