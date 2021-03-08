@@ -3,10 +3,11 @@
  * @Author       : zengrongping
  * @Date         : 2021-03-07 17:43:10
  * @LastEditors  : zengrongping
- * @LastEditTime : 2021-03-07 17:48:15
+ * @LastEditTime : 2021-03-08 13:40:31
  * @FilePath     : \react-mobile-create\src\App.js
  */
 import React from "react";
+import { Button } from "antd-mobile";
 import logo from "./logo.svg";
 import "./App.css";
 
@@ -18,6 +19,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <Button type="primary">按钮</Button>
         <a
           className="App-link"
           href="https://reactjs.org"
