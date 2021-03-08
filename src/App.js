@@ -3,13 +3,13 @@
  * @Author       : zengrongping
  * @Date         : 2021-03-07 17:43:10
  * @LastEditors  : zengrongping
- * @LastEditTime : 2021-03-08 13:40:31
+ * @LastEditTime : 2021-03-08 14:54:12
  * @FilePath     : \react-mobile-create\src\App.js
  */
 import React from "react";
 import { Button } from "antd-mobile";
 import logo from "./logo.svg";
-import "./App.css";
+import "@/App.less";
 
 function App() {
   return (

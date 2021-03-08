@@ -1,15 +1,23 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorkerRegistration from './serviceWorkerRegistration';
-import reportWebVitals from './reportWebVitals';
+/*
+ * @description  :
+ * @Author       : zengrongping
+ * @Date         : 2021-03-07 17:43:10
+ * @LastEditors  : zengrongping
+ * @LastEditTime : 2021-03-08 14:55:36
+ * @FilePath     : \react-mobile-create\src\index.js
+ */
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import App from "@/App";
+import * as serviceWorkerRegistration from "./serviceWorkerRegistration";
+import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
 
 // If you want your app to work offline and load faster, you can change
